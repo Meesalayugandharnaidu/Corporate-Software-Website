@@ -172,3 +172,18 @@ $(function () {
     );
   });
 });
+/* nav menu-collapse */
+const navItems = document.querySelectorAll(".nav-item");
+const navMenu = document.querySelector("#navMenu");
+navItems.forEach((li) => {
+  li.addEventListener("click", () => {
+    let ww = window.innerWidth;
+    if (ww < 992) {
+      let bsToggle = new bootstrap.Collapse(navMenu);
+      bsToggle.toggle();
+    }
+  });
+});
+
+
+
