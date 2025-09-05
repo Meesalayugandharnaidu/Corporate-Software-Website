@@ -391,6 +391,10 @@ ul.social li a:hover {
   margin: 20px 0px;
   color: #ffbc02;
 }
+#quote h2 span {
+  color: rgba(12, 211, 211, 0.959);
+  font-size: 35px;
+}
 
 /* Services 01 */
 .horizontal-heading {
